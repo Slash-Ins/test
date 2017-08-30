@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 from flask import Flask
@@ -12,4 +12,4 @@ def hello ():
 
 
 if __name__ == '__main__':
-    app.run(debug = True)
+    app.run()
